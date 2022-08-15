@@ -1,6 +1,7 @@
 name: Continious Integration and Deployment
 on:
   push:
+    branches:
     - main
 jobs:
   build:
